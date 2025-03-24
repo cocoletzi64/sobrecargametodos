@@ -12,6 +12,12 @@ public class Ejemplosobrecarga {
         System.out.println("sumar double : "+cal.sumar(10.0,5.0));
         System.out.println("sumar String  : "+cal.sumar("10","5"));
         System.out.println("sumar 3 int : "+cal.sumar(10,5,3));
+        System.out.println("sumar 5 int : "+cal.sumar(10,5,3,4,6));
+        System.out.println("sumar float + n int :" +cal.sumar(10.5f,5,9,15));
+        System.out.println("sumar 3 double: " +cal.sumar(10.0,5.0,3,5,4,5));
+
+        System.out.println("\n");
+
 
         System.out.println("sumar long : "+cal.sumar(10l,5l));
         System.out.println("sumar int : "+cal.sumar(10,'@'));
